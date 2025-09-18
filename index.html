@@ -18,73 +18,69 @@
       background: #fff;
       border-radius: 15px;
       padding: 30px;
-      display: flex;
-      align-items: center;
-      max-width: 900px;
+      text-align: center;
+      max-width: 600px;
       box-shadow: 0 8px 25px rgba(0,0,0,0.1);
     }
     .card img {
       width: 180px;
       height: 180px;
       border-radius: 50%;
-      margin-left: 40px;
       object-fit: cover;
       border: 3px solid #0077b5;
+      margin-bottom: 20px;
     }
-    .info {
-      flex: 1;
-    }
-    .info h1 {
-      margin: 0;
-      font-size: 2.2em;
+    .card h1 {
+      margin: 10px 0 5px 0;
+      font-size: 2em;
       color: #0077b5;
     }
-    .info h2 {
-      margin: 8px 0 20px 0;
+    .description {
+      margin: 10px 0 20px 0;
+      font-size: 1em;
+      color: #444;
+      line-height: 1.5;
+    }
+    .card h2 {
+      margin: 0 0 15px 0;
       font-size: 1.2em;
       font-weight: 500;
       color: #555;
     }
-    .info p {
+    .card p {
       margin: 6px 0;
       color: #333;
     }
-    .info a {
+    .card a {
       color: #0077b5;
       text-decoration: none;
       font-weight: 500;
     }
-    .info a:hover {
+    .card a:hover {
       text-decoration: underline;
-    }
-    .description {
-      margin-top: 18px;
-      font-size: 1em;
-      color: #444;
-      line-height: 1.5;
     }
   </style>
 </head>
 <body>
   <div class="card">
-    <div class="info">
-      <h1>Ahmed Raslan</h1>
-      <h2>Electrical Project Engineer – ASP</h2>
-      <p><strong>Company:</strong> ALAMEIN FOR SILICON PRODUCTS</p>
-      <p><strong>Mobile:</strong> +201142850103</p>
-      <p><strong>Email:</strong> <a href="mailto:Ahmed-Raslan@asp-eg.org">Ahmed-Raslan@asp-eg.org</a></p>
-      <p><strong>LinkedIn:</strong> 
-        <a href="https://www.linkedin.com/in/ahmed-raslan-a488b2192" target="_blank">
-          www.linkedin.com/in/ahmed-raslan-a488b2192
-        </a>
-      </p>
-      <p><strong>Address:</strong> 27 Al Salam Avenue, Zahrat Al-Louts, 5th settlement, New Cairo, Egypt</p>
-      <div class="description">
-        Electrical Engineer at ASP, experienced in field execution and technical office work,
-        with a focus on power systems, project studies, and power station development.
-      </div>
-    </div>
     <img src="raslan.jpg" alt="Ahmed Raslan">
+    <h1>Ahmed Raslan</h1>
+    <div class="description">
+      Electrical Engineer at ASP, experienced in field execution and technical office work,
+      with a focus on power systems, project studies, and power station development.
+    </div>
+    <h2>Electrical Project Engineer – ASP</h2>
+    <p><strong>Company:</strong> ALAMEIN FOR SILICON PRODUCTS</p>
+    <p><strong>Mobile:</strong> +201142850103</p>
+    <p><strong>Email:</strong> 
+      <a href="mailto:Ahmed-Raslan@asp-eg.org">Ahmed-Raslan@asp-eg.org</a>
+    </p>
+    <p><strong>LinkedIn:</strong> 
+      <a href="https://www.linkedin.com/in/ahmed-raslan-a488b2192" target="_blank">
+        www.linkedin.com/in/ahmed-raslan-a488b2192
+      </a>
+    </p>
+    <p><strong>Address:</strong> 27 Al Salam Avenue, Zahrat Al-Louts, 5th settlement, New Cairo, Egypt</p>
   </div>
 </body>
 </html>
