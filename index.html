@@ -3,68 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ahmed Raslan - Digital Card</title>
+  <title>Ahmed Raslan - Profile Card</title>
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
-      background: #0a1a2f;
-      color: #fff;
+      background-color: #0b1e39;
+      color: white;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      margin: 0;
     }
     .card {
-      background: #112244;
-      border-radius: 20px;
+      background-color: #142850;
+      border-radius: 15px;
       padding: 30px;
-      max-width: 400px;
-      text-align: center;
-      box-shadow: 0px 4px 20px rgba(0,0,0,0.5);
+      display: flex;
+      align-items: center;
+      max-width: 900px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     }
     .card img {
-      width: 120px;
-      height: 120px;
+      width: 180px;
+      height: 180px;
       border-radius: 50%;
+      margin-left: 30px;
       object-fit: cover;
-      margin-bottom: 20px;
-      border: 3px solid #1e90ff;
+      border: 4px solid #00aaff;
     }
-    .card h1 {
-      margin: 10px 0 5px;
-      font-size: 22px;
+    .info {
+      flex: 1;
     }
-    .card h2 {
-      margin: 5px 0 15px;
-      font-size: 16px;
+    .info h1 {
+      margin: 0;
+      font-size: 2em;
+      color: #00aaff;
+    }
+    .info h2 {
+      margin: 5px 0 20px 0;
+      font-size: 1.2em;
       font-weight: normal;
-      color: #aaa;
+      color: #cccccc;
     }
-    .card p {
-      font-size: 14px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-    }
-    .card a {
-      display: block;
+    .info p {
       margin: 8px 0;
+    }
+    .info a {
+      color: #00aaff;
       text-decoration: none;
-      color: #1e90ff;
-      font-weight: bold;
+    }
+    .info a:hover {
+      text-decoration: underline;
+    }
+    .description {
+      margin-top: 15px;
+      font-size: 0.95em;
+      color: #e0e0e0;
     }
   </style>
 </head>
 <body>
   <div class="card">
+    <div class="info">
+      <h1>Ahmed Raslan</h1>
+      <h2>Electrical Project Engineer – ASP</h2>
+      <p><strong>Company:</strong> ALAMEIN FOR SILICON PRODUCTS</p>
+      <p><strong>Mobile:</strong> +201142850103</p>
+      <p><strong>Email:</strong> <a href="mailto:Ahmed-Raslan@asp-eg.org">Ahmed-Raslan@asp-eg.org</a></p>
+      <p><strong>LinkedIn:</strong> 
+        <a href="https://www.linkedin.com/in/ahmed-raslan-a488b2192" target="_blank">
+          www.linkedin.com/in/ahmed-raslan-a488b2192
+        </a>
+      </p>
+      <p><strong>Address:</strong> 27 Al Salam Avenue, Zahrat Al-Louts, 5th settlement, New Cairo, Egypt</p>
+      <div class="description">
+        Electrical Engineer at ASP, experienced in field execution and technical office work,
+        with a focus on power systems, project studies, and power station development.
+      </div>
+    </div>
     <img src="raslan.jpg" alt="Ahmed Raslan">
-    <h1>Ahmed Raslan</h1>
-    <h2>Electrical Project Engineer</h2>
-    <p>Passionate Electrical Engineer with experience in power systems, project studies, and power station development.</p>
-    <a href="tel:+201142850103">📞 +20 114 285 0103</a>
-    <a href="mailto:Ahmed-Raslan@asp-eg.org">✉️ Ahmed-Raslan@asp-eg.org</a>
-    <a href="https://www.linkedin.com/in/ahmed-raslan-a488b2192" target="_blank">LinkedIn Profile</a>
-    <p>🏠 27 Al Salam Avenue, Zahrat Al-Louts, 5th settlement, New Cairo, Egypt</p>
   </div>
 </body>
 </html>
